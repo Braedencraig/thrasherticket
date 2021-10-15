@@ -1,291 +1,474 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Berleezy Presents: The Birthday Ball</title>
-    <meta
-      name="description"
-      content="Berleezy Presents: The Birthday Ball, Thursday, December 16th, The Yost Theatre, Santa Ana, CA"
-    />
-    <meta property="og:title" content="Berleezy Presents: The Birthday Ball" />
-    <meta
-      property="og:description"
-      content="Berleezy Presents: The Birthday Ball, Thursday, December 16th, The Yost Theatre, Santa Ana, CA"
-    />
-    <meta property="og:url" content="http://eezyganglive.com/" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="http://eezyganglive.com/main.png" />
-    <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:width" content="500" />
-    <meta property="og:image:height" content="500" />
-    <meta name="twitter:title" content="Berleezy Presents: The Birthday Ball" />
-    <meta
-      name="twitter:description"
-      content="Berleezy Presents: The Birthday Ball, Thursday, December 16th, The Yost Theatre, Santa Ana, CA"
-    />
-    <meta name="twitter:image" content="http://eezyganglive.com/main.png" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Limelight&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
-      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <style>
-      html {
-        box-sizing: border-box;
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Daniel Thrasher: Laugh or Die</title>
+  <meta name="description"
+    content="Daniel Thrasher: Laugh or Die, Wednesday, December 1st, Palace Theatre, Los Angeles, CA" />
+  <meta property="og:title" content="Daniel Thrasher: Laugh or Die" />
+  <meta property="og:description"
+    content="Daniel Thrasher: Laugh or Die, Wednesday, December 1st, Palace Theatre, Los Angeles, CA" />
+  <meta property="og:url" content="http://danielthrasher.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="http://danielthrasher.com/logo.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="500" />
+  <meta property="og:image:height" content="500" />
+  <meta name="twitter:title" content="Daniel Thrasher: Laugh or Die" />
+  <meta name="twitter:description"
+    content="Daniel Thrasher: Laugh or Die, Wednesday, December 1st, Palace Theatre, Los Angeles, CA" />
+  <meta name="twitter:image" content="http://danielthrasher.com/logo.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    html {
+      box-sizing: border-box;
+    }
+
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-size: 24px;
+      background: #2C0A28;
+    }
+
+    .container {
+      width: 100%;
+      background-image: url("background.png");
+      height: 100%;
+      /* height: 100vh; */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 0 auto;
+      animation: fadein 2s;
+      -moz-animation: fadein 2s;
+      /* Firefox */
+      -webkit-animation: fadein 2s;
+      /* Safari and Chrome */
+      -o-animation: fadein 2s;
+      margin-top: -535px;
+    }
+
+    .logo {
+      text-align: center;
+    }
+
+    .logo img {
+      width: 100%;
+      max-width: 800px;
+      height: auto;
+      /* margin-bottom: -270px; */
+      position: relative;
+      top: 320px;
+    }
+
+    .daniel {
+      display: flex;
+      justify-content: center;
+    }
+
+    .daniel img {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+      margin: 0 auto;
+      position: relative;
+      top: 90px;
+    }
+
+    .additional-details {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      margin-top: 100px;
+    }
+
+    .additional-details img {
+      width: 100px;
+    }
+
+    @keyframes fadein {
+      from {
+        opacity: 0;
       }
 
-      *,
-      *:before,
-      *:after {
-        box-sizing: inherit;
+      to {
+        opacity: 1;
+      }
+    }
+
+    @-moz-keyframes fadein {
+
+      /* Firefox */
+      from {
+        opacity: 0;
       }
 
-      body {
-        font-family: "Limelight", cursive;
-        background-color: darkkhaki;
-        margin: 0;
-        padding: 0;
-        font-size: 24px;
+      to {
+        opacity: 1;
+      }
+    }
+
+    @-webkit-keyframes fadein {
+
+      /* Safari and Chrome */
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    @-o-keyframes fadein {
+
+      /* Opera */
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+
+    /* 12 */
+    .btn-12 {
+      color: #0bf4f3;
+      position: relative;
+      right: 20px;
+      bottom: 20px;
+      border: none;
+      width: 260px;
+      height: 60px;
+      line-height: 40px;
+      -webkit-perspective: 230px;
+      perspective: 230px;
+    }
+
+    p {
+      font-size: 24px;
+      color: #0bf4f3;
+      padding: 5px 0;
+      text-transform: uppercase;
+      font-family: 'Audiowide', cursive;
+      margin: 0;
+    }
+
+    .btn-12 span {
+      display: block;
+      background: purple;
+      position: absolute;
+      width: 260px;
+      height: 60px;
+      border: 1px solid #0bf4f3;
+      box-shadow: 0 0 5px #0bf4f3, 0 0 5px #0bf4f3 inset;
+      margin: 0;
+      text-align: center;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      -webkit-transition: all .3s;
+      transition: all .3s;
+      padding-top: 9px;
+    }
+
+    .btn-12 span:nth-child(1) {
+      box-shadow: 0 0 5px #0bf4f3, 0 0 5px #0bf4f3 inset;
+      -webkit-transform: rotateX(90deg);
+      -moz-transform: rotateX(90deg);
+      transform: rotateX(90deg);
+      -webkit-transform-origin: 50% 50% -28px;
+      -moz-transform-origin: 50% 50% -28px;
+      transform-origin: 50% 50% -28px;
+    }
+
+    .btn-12 span:nth-child(2) {
+      -webkit-transform: rotateX(0deg);
+      -moz-transform: rotateX(0deg);
+      transform: rotateX(0deg);
+      -webkit-transform-origin: 50% 50% -30px;
+      -moz-transform-origin: 50% 50% -30px;
+      transform-origin: 50% 50% -30px;
+    }
+
+    .btn-12:hover span:nth-child(1) {
+      -webkit-transform: rotateX(0deg);
+      -moz-transform: rotateX(0deg);
+      transform: rotateX(0deg);
+    }
+
+    .btn-12:hover span:nth-child(2) {
+      background: transparent;
+      color: transparent;
+      box-shadow: 0 0 5px #0bf4f3, 0 0 5px #0bf4f3 inset;
+      -webkit-transform: rotateX(-90deg);
+      -moz-transform: rotateX(-90deg);
+      transform: rotateX(-90deg);
+    }
+
+    button {
+      margin: 20px;
+    }
+
+    .socials {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .socials i {
+      font-size: 70px;
+      margin: 20px;
+      color:  #0bf4f3;
+  text-shadow:
+    0 0 1px  #0bf4f3,
+    0 0 3px  #0bf4f3,
+    0 0 4px  #0bf4f3,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+    transition: all 0.4s;
+    }
+
+    .socials i:hover {
+      color: #fff;
+  text-shadow:
+    /* White glow */
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    /* Green glow */
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+    }
+
+    .custom-btn {
+      color: #0bf4f3;
+      width: 260px;
+      font-size: 30px;
+      text-transform: uppercase;
+      height: 40px;
+      padding: 10px 25px;
+      font-family: 'Audiowide', cursive;
+      font-weight: 500;
+      background: transparent;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      position: relative;
+      display: inline-block;
+    }
+
+    .btn-wrapper {
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+      position: relative;
+      top: 60px;
+    }
+
+    .show-info {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    @media only screen and (max-width: 1200px) {
+      .logo img {
+        position: relative;
+        top: 370px;
+      }
+
+      .daniel img {
+        top: 120px;
+      }
+
+      /* .btn-wrapper {
+        top: 200px;
+      } */
+
+      /* .additional-details {
+        margin-top: 300px;
+      } */
+    }
+
+
+    @media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+   .container {
+        margin-top: -512px;
+      }
+}
+
+  
+    
+
+
+    @media only screen and (max-width: 768px) {
+      .container {
+        height: 100%;
+        margin-top: -520px;
+      }
+
+      p {
+        font-size: 20px;
+      }
+
+      .socials i {
+        font-size: 40px;
+      }
+
+      .additional-details img {
+        width: 100px;
+      }
+
+      .logo img {
+        top: 340px;
+      }
+    }
+
+     @media only screen and (max-width: 660px) {
+      .daniel img {
+        top: 160px;
       }
 
       .container {
-        max-width: 900px;
-        width: 100%;
-        padding: 30px 10px;
+        margin-top: -460px;
+      }
+    }
+
+
+    @media only screen and (max-width: 540px) {
+
+      .container {
+        margin-top: -415px;
+      }
+    }
+
+    @media only screen and (max-width: 420px) {
+      .container {
+        height: 100%;
+      }
+
+      .logo img {
+        margin-top: 0px;
+      }
+
+      .daniel img {
+        top: 220px;
+        max-width: 300px;
+      }
+
+      p {
+        font-size: 15px;
+        width: 90%;
         margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        animation: fadein 2s;
-        -moz-animation: fadein 2s; /* Firefox */
-        -webkit-animation: fadein 2s; /* Safari and Chrome */
-        -o-animation: fadein 2s;
       }
 
-      .poster {
-        max-width: 800px;
-        width: 100%;
-        height: auto;
-        margin-bottom: 20px;
+      .show-info {
+        margin-top: 30px;
       }
 
-      .fancy-border {
-        border: 25px solid #b88846;
-        border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='black' stroke='darkkhaki' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23B88846'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E")
-          25;
+      .btn-wrapper {
+        top: 200px;
       }
 
-      h1 {
-        display: none;
+      .custom-btn {
+        font-size: 20px;
       }
 
-      h2 {
-        margin: 0 0 5px 0;
-        padding: 0;
-        text-align: center;
+      .btn-12 span:nth-child(2) {
+        transform-origin: 50% 50% -25px;
       }
 
-      .tickets button {
-        background: none;
-        cursor: pointer;
-        font-family: "Limelight", cursive;
-        font-size: 42px;
-        padding: 10px 20px;
+      .btn-12 span:nth-child(1) {
+        transform-origin: 50% 50% -25px;
       }
 
-      .highlight .button {
-        display: inline-block;
-        color: #fff;
-        background: black;
-        margin: 20px;
-        width: 260px;
-        height: 60px;
-        text-align: center;
-        line-height: 40px;
-        border-radius: 10px;
-        position: relative;
-        overflow: hidden;
-        text-decoration: none;
-        vertical-align: auto;
-        font-size: 42px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+      .btn-12, .btn-12 span {
+        width: 160px;
+        height: 50px;
         padding-top: 4px;
       }
 
-      .highlight .button:before {
-        content: "";
-        position: absolute;
-        top: -20px;
-        left: -80px;
-        height: 100px;
-        width: 70px;
-        background: rgba(255, 255, 255, 0.7);
-        transform: rotate(20deg);
+      .additional-details img {
+        width: 100px;
+        margin-top: 150px;
       }
+    }
 
-      .on-sale {
-        text-align: center;
-        font-size: 30px;
-      }
 
-      .highlight .button:hover:before {
-        left: 320px;
-        transition: all 0.6s;
-      }
+    @media only screen and (max-width: 360px) {
+      .container {
+        height: 100%;
+      }   
+    }
 
-      .highlight {
-        margin-bottom: 14px;
-        display: flex;
-        justify-content: center;
-      }
+    @media only screen and (max-width: 320px) {
+      .container {
+        height: 100%;
+      }   
+    }
+  </style>
+</head>
 
-      .additional-details a img {
-        max-width: 200px;
-        margin-top: 40px;
-      }
-
-      .icons {
-        display: flex;
-        margin-top: 10px;
-      }
-
-      .icons a {
-        margin: 0 10px;
-      }
-
-      i {
-        text-decoration: none;
-        color: black;
-        transition: all 0.3s;
-      }
-
-      .fab {
-        text-align: center;
-      }
-
-      i:hover {
-        opacity: 0.7;
-      }
-
-      @keyframes fadein {
-        from {
-          opacity: 0;
-        }
-        to {
-          opacity: 1;
-        }
-      }
-      @-moz-keyframes fadein {
-        /* Firefox */
-        from {
-          opacity: 0;
-        }
-        to {
-          opacity: 1;
-        }
-      }
-      @-webkit-keyframes fadein {
-        /* Safari and Chrome */
-        from {
-          opacity: 0;
-        }
-        to {
-          opacity: 1;
-        }
-      }
-      @-o-keyframes fadein {
-        /* Opera */
-        from {
-          opacity: 0;
-        }
-        to {
-          opacity: 1;
-        }
-      }
-
-      @media only screen and (max-width: 768px) {
-        .poster {
-          max-width: 600px;
-        }
-
-        .additional-details a img {
-          max-width: 150px;
-          margin-top: 20px;
-        }
-
-        h2 {
-          font-size: 30px;
-        }
-      }
-
-      @media only screen and (max-width: 500px) {
-        h2 {
-          font-size: 20px;
-        }
-      }
-    </style>
-  </head>
-
-  <body>
-    <div class="container">
-      <img src="main.png" class="poster fancy-border" alt="poster" />
-      <div class="info">
-        <h1 class="display">Berleezy Presents: The Birthday Ball</h1>
-        <!-- <p class="on-sale">On Sale, Friday October 8th, 2021</p> -->
-        <div class="highlight">
-          <a
-            href="https://www.ticketweb.com/event/berleezy-yost-theater-tickets/11421805"
-            class="button"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Tickets
-          </a>
-        </div>
-        <h2>Thursday, December 16th 2021</h2>
-        <h2>The Yost Theatre</h2>
-        <h2>Santa Ana, CA</h2>
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="logo.png" alt="Daniel Thrasher">
+    </div>
+    <div class="daniel">
+      <img src="daniel.png" alt="Daniel Thrasher">
+    </div>
+    <div class="btn-wrapper">
+      <button class="custom-btn btn-12"><span>Tickets</span><span>Tickets</span></button>
+      <div class="show-info">
+        <p>
+          December 1st, Palace Theatre
+        </p>
+        <p>
+          630 S Broadway, Los Angeles
+        </p>
       </div>
-      <div class="icons">
-        <a
-          href="https://twitter.com/berleezy"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i class="fab fa-twitter fa-2x"></i>
-        </a>
-        <a
-          href="https://www.youtube.com/channel/UCp1VWSTrt2cUBInkn4dUmDA"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i class="fab fa-youtube fa-2x"></i>
-        </a>
-        <a
-          href="https://www.instagram.com/berleezy/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+      <div class="socials">
+        <a href="https://www.instagram.com/danielthrasher/" target="_blank" rel="noopener noreferrer">
           <i class="fab fa-instagram fa-2x"></i>
         </a>
+        <a href="https://www.youtube.com/danielthrasher" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-youtube fa-2x"></i>
+        </a>
+        <a href="https://twitter.com/thrasherdan" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-twitter fa-2x"></i>
+        </a>
       </div>
-      <div class="additional-details">
-        <a href="https://www.realgoodtouring.com/" target="_blank" class="rgt"
-          ><img src="rgt.png" alt="Real Good Touring"
-        /></a>
-      </div>
+      
     </div>
-  </body>
+    <div class="additional-details">
+      <a href="https://www.realgoodtouring.com/" target="_blank" class="rgt"><img src="rgt.png"
+          alt="Real Good Touring" /></a>
+    </div>
+  </div>
+</body>
+
 </html>
